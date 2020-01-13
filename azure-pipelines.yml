@@ -21,3 +21,6 @@ steps:
 - task: BatchScript@1
   inputs:
     filename: 'hello.sh'
+- task: BatchScript@1
+  inputs:
+    filename: 'hello.sh'
