@@ -18,6 +18,6 @@ steps:
     echo Welcome to Azure Pipeline. See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: Bash@1
+- task: Bash@3
   inputs:
     filePath: 'hello.sh'
